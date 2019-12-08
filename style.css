@@ -1,26 +1,27 @@
-.container {    text-align: center;
-                border: 1px solid gray;
-                padding:5%;
+.container {    border: 1px solid gray;
+    padding:2%;
 }
 
 header {    text-align: center;
-            padding: 1%;
-}
-hr { color: gray;
-}
-h2 {    text-align: left;
-}
-.form-control { height: 150px;
-                border: 2px dashed gray;
+padding: 1%;
 }
 
-.input-group {  margin-top: 3%;
-                margin-bottom: 3%;
-                font-family: 'Comfortaa', cursive;
+hr { color: gray;
+}
+
+h2 {    text-align: left;
+}
+
+#password { height: 150px;
+width:100%;
+border: 2px dashed gray;
+font-family: 'Comfortaa', cursive;
+text-align: center;
 }
 
 .btn {  
-        border-radius: 30px;
-        padding: 10px;
-        font-size: 20px;
+border-radius: 30px;
+padding: 10px 20px 10px 20px;
+font-size: 20pt;
+border-color: #ffffff;
 }
