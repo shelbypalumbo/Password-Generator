@@ -1,27 +1,31 @@
 .container {    border: 1px solid gray;
-    padding:2%;
+                padding:2%;
+                background-color:rgb(245, 155, 170);
 }
 
 header {    text-align: center;
-padding: 1%;
+            padding: 1%;
+            color:rgb(255, 174, 187);
 }
 
 hr { color: gray;
 }
 
 h2 {    text-align: left;
+        color: gray;
 }
 
 #password { height: 150px;
-width:100%;
-border: 2px dashed gray;
-font-family: 'Comfortaa', cursive;
-text-align: center;
+            width:100%;
+            border: 2px dashed gray;
+            font-family: 'Comfortaa', cursive;
+            text-align: center;
 }
 
-.btn {  
-border-radius: 30px;
-padding: 10px 20px 10px 20px;
-font-size: 20pt;
-border-color: #ffffff;
+.btn {  border-radius: 30px;
+        padding: 10px 20px 10px 20px;
+        font-size: 20pt;
+        border-color: #ffffff;
+}
+body {  background-color: rgb(192, 99, 114);
 }
