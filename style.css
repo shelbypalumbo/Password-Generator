@@ -1,11 +1,12 @@
 .container {    border: 1px solid gray;
-                padding:2%;
-                background-color:rgb(245, 155, 170);
+                border-radius: 20px;
+                padding: 2%;
+                background-color: white;
 }
 
 header {    text-align: center;
-            padding: 1%;
-            color:rgb(255, 174, 187);
+            padding: 2%;
+            color:  rgb(192, 99, 114);
 }
 
 hr { color: gray;
@@ -16,19 +17,16 @@ h2 {    text-align: left;
 }
 
 #password { height: 150px;
-            width:100%;
+            width: 100%;
             border: 2px dashed gray;
             font-family: 'Comfortaa', cursive;
             text-align: center;
-            background-color:rgb(245, 155, 170);
+
 }
 
 .btn {  border-radius: 30px;
         padding: 10px 20px 10px 20px;
-        font-size: 20pt;
+        font-size: 16pt;
         border-color: #ffffff;
+        margin: 2%;
 }
-body {  background-color: rgb(192, 99, 114);
-}
-
-@media (max-width: 576px) { .btn-block }
