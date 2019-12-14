@@ -116,11 +116,18 @@ function randomPass(){
             return password;
         }; 
         
+//FFFF
         if (useupper === false && uselower === false && usespecial === false && usenum === false) {
            alert("You must choose at least one password characteristic!");
             return randomPass();
         }; 
      
+//TFTF
+        if (useupper === true && uselower === false && usespecial === true && usenum === false) {
+            var all = specialchar + uppercase;
+            generateFun();
+            return password;
+        };         
     
     
         function generateFun(){   
