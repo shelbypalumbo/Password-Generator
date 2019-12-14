@@ -18,3 +18,5 @@ The chosen combinations will trigger the if statement with those parameters, whi
 <img src="images/if_state.png" alt="ifcode"> <br>
 After the generateFun function runs, the generated password  will be returned and printed to the text box on screen.
 <img src="images/result.png" alt="result">
+The "Copy to Clipboard" button allows you to copy the generated password and and alert will appear showing users that the password has been saved!
+<img src="images/clipboard.png" alt="clipboard_alert">

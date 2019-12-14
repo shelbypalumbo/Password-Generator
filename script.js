@@ -1,8 +1,17 @@
 window.onload = function (){
     var generateButton = document.querySelector("#generate");
-
     generateButton.addEventListener("click", function(){				
     document.querySelector("#password").value = randomPass();
+    });
+    var copyToClip = document.querySelector("#clipboard");
+    copyToClip.addEventListener("click", function(){				
+        var copyText = document.getElementById("password");
+        // Select the text field 
+        copyText.select();      
+        // Copy the text inside the text field
+        document.execCommand("copy");   
+
+        alert("Copied password to clipboard!");
     });
 }
 
