@@ -28,14 +28,41 @@ function randomPass(){
         var lowercase = "abcdefghijklmnopqrstuvwxyz";
         var numbers = "1234567890";
         var specialchar = "!#$%&*+=?@~";
-        var password= " ";
-       
+        var password= "";
+        var all = []; 
+
+
+/*
+        if (useupper === true){
+            all.push(uppercase.concat());
+        }
+        if (uselower === true){
+            all.push(lowercase);
+        }
+        if (usespecial === true){
+            all.push(specialchar.concat());
+        }
+        if (usenum === true){
+            all.push(numbers.concat());
+        }
+        console.log(password.concat(all));
+        generateFun();
+        return password;
+*/
+
 //TTTT 
-            if (useupper === true && uselower === true && usespecial === true && usenum === true){
+           if (useupper === true && uselower === true && usespecial === true && usenum === true){
                 var all = uppercase + lowercase + specialchar + numbers;
                 generateFun();
                 return password;
             };
+
+//TFTT 
+           if (useupper === true && uselower === false && usespecial === true && usenum === true){
+            var all = uppercase + specialchar + numbers;
+            generateFun();
+            return password;
+        };
 
 //FTTT
             if (useupper === false && uselower === true && usespecial === true && usenum === true) {
