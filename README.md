@@ -29,3 +29,8 @@ After the generateFun function runs, the generated password will be returned and
 The "Copy to Clipboard" button allows a user to copy the generated password and an alert will appear when the password has been saved!
 
 ![clip](/images/clipboard.png)
+
+## Programming Languages Used
+* JavaScript
+* HTML
+* CSS
